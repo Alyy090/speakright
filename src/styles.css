@@ -1,0 +1,179 @@
+@import "tailwindcss";@source "../src";
+:root{font-family:Inter,ui-sans-serif,system-ui,sans-serif;color:#0a1e35;background:#f7f5f0;--navy:#09223f;--blue:#1d5e91;--cream:#f7fbff;--muted:#536779;--line:#cfe0eb}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:#0a1e35}button,input,select{font:inherit}button{border:0;background:none;cursor:pointer}.site{overflow:hidden}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(18px,5vw,76px);border-bottom:1px solid #dfe4e7;background:#f7f5f0e8;backdrop-filter:blur(18px);position:sticky;top:0;z-index:20}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--navy)}.brand>b{width:39px;height:39px;border-radius:12px;background:var(--navy);color:white;display:grid;place-items:center}.brand strong{display:block;font-size:18px;letter-spacing:-.5px}.brand small{display:block;font-size:7px;letter-spacing:1.8px;font-weight:800;color:#68798a;margin-top:2px}.nav nav{display:flex;gap:32px;margin-left:70px}.nav nav button,.navActions button{font-size:13px;font-weight:700}.nav nav button:hover{color:var(--blue)}.navActions{display:flex;gap:14px;align-items:center}.lang{border:1px solid var(--line);border-radius:999px;padding:3px;background:white}.lang button{font-size:10px;padding:7px 10px;border-radius:999px;color:#718093}.lang .on{background:var(--navy);color:white}.navCta{background:var(--navy);color:white;padding:11px 18px;border-radius:999px}.hero{min-height:650px;max-width:1440px;margin:auto;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;padding:70px clamp(22px,7vw,100px);position:relative}.heroCopy{z-index:2}.eyebrow{font-size:10px;text-transform:uppercase;letter-spacing:2px;font-weight:850;color:#51708e;display:flex;align-items:center;gap:9px}.eyebrow i{display:block;width:22px;height:1px;background:#7fa7c8}.hero h1{font-size:clamp(50px,6vw,86px);line-height:.98;letter-spacing:-5px;margin:20px 0 25px}.hero h1 span{display:block}.hero h1 span:last-child{color:#4b7598}.heroCopy>p{font-size:18px;line-height:1.7;color:var(--muted);max-width:590px;margin:0 0 28px}.heroBtns{display:flex;align-items:center;gap:25px}.primary{background:var(--navy);color:#fff;padding:16px 21px;border-radius:12px;font-weight:800;box-shadow:0 12px 30px #09223f29}.primary span{margin-left:28px}.textBtn{font-size:13px;font-weight:750}.proof{margin-top:24px;color:#607184;font-size:10px;font-weight:700}.visual{height:490px;position:relative;display:grid;place-items:center}.ring{position:absolute;border:1px solid #bcd0df;border-radius:50%}.ring.a{width:470px;height:300px}.ring.b{width:390px;height:245px}.lessonCard{width:min(390px,75vw);height:300px;background:linear-gradient(145deg,#102f50,#1d5c89);border-radius:24px;box-shadow:0 30px 70px #08244147;padding:20px;color:white;z-index:2}.lessonCard small{font-size:9px;letter-spacing:2px;color:#aac9df;font-weight:850}.lessonCard h3{font-size:35px;line-height:1.02;letter-spacing:-1.5px;margin:48px 0 28px}.wave{font-size:16px;letter-spacing:3px;color:#9fc5e0}.wave em{font-size:9px;letter-spacing:0;margin-left:15px;color:#c4d7e5;font-style:normal}.float{position:absolute;background:#fff;border:1px solid #e0e6eb;box-shadow:0 18px 50px #09223f26;border-radius:14px;padding:12px 15px;z-index:3;font-size:10px;font-weight:800}.float small{display:block;color:#66788b;font-weight:500;margin-top:3px}.rating{top:104px;right:0;color:#bd8a35;letter-spacing:2px}.demo{bottom:55px;left:0}.demo span{display:inline-block;width:7px;height:7px;background:#42a878;border-radius:50%;margin-right:8px}.glow{position:absolute;width:450px;height:450px;border-radius:50%;background:#dceaf4;right:4%;top:10%;filter:blur(2px)}.ticker{border-block:1px solid var(--line);background:white;display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:12px 22px;padding:18px 28px;width:100%;color:#718397;font-size:9px;font-weight:850;letter-spacing:2px;text-align:center}.ticker span{white-space:nowrap}.ticker b{color:#8aa9c0}.ticker b{color:#8aa9c0}.section{max-width:1240px;margin:auto;padding:110px 28px}.sectionHead{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:end;margin-bottom:44px}.section h2{font-size:clamp(37px,4vw,58px);letter-spacing:-3px;line-height:1.03;margin:14px 0}.sectionHead>p{font-size:14px;line-height:1.7;color:var(--muted);max-width:480px;margin:0}.courseGrid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.course{grid-column:span 2;text-decoration:none;color:inherit;text-align:left;background:white;border:1px solid var(--line);border-radius:18px;padding:23px;min-height:235px;display:flex;flex-direction:column;align-items:flex-start;transition:.22s}.course:nth-child(4),.course:nth-child(5){grid-column:span 3}.course:hover,.course.selected{border-color:#8fb2cb;box-shadow:0 18px 45px #14395619}.courseTop{display:flex;width:100%;justify-content:space-between}.courseTop b{width:37px;height:37px;border-radius:10px;background:#e9f0f5;color:#1c577f;display:grid;place-items:center;font-size:12px}.courseTop span{font-size:18px;color:#7890a5}.course h3{font-size:21px;letter-spacing:-.7px;margin:28px 0 8px}.course p{font-size:12px;line-height:1.55;color:var(--muted);margin:0}.course small{margin-top:auto;padding-top:18px;color:#527795;text-transform:uppercase;letter-spacing:1.2px;font-size:9px;font-weight:850}.how{max-width:none;background:var(--navy);color:white;display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;padding-left:max(28px,calc((100vw - 1184px)/2));padding-right:max(28px,calc((100vw - 1184px)/2))}.how .eyebrow{color:#9bb7cd}.how h2{max-width:480px}.badge{width:120px;height:120px;border:1px solid #557492;border-radius:50%;display:grid;place-content:center;text-align:center;margin-top:42px}.badge strong{font-size:13px;color:#a9c9e0}.badge span{font-size:9px;line-height:1.2;letter-spacing:1px}.step{display:grid;grid-template-columns:60px 1fr;gap:20px;padding:32px 0;position:relative}.step>span{color:#8fb0c8;font-size:11px}.step h3{font-size:21px;letter-spacing:-.6px;margin:0 0 8px}.step p{color:#9fb1c1;line-height:1.6;font-size:13px;margin:0;max-width:470px}.step>i{position:absolute;left:5px;bottom:-4px;width:1px;height:35px;background:#3e5c77}.enroll{padding-top:120px;padding-bottom:120px}.enrollPanel{background:white;border:1px solid var(--line);border-radius:26px;display:grid;grid-template-columns:.82fr 1.18fr;overflow:hidden;box-shadow:0 22px 60px #14395614}.enrollInfo{background:#edf3f7;padding:55px}.enrollInfo h2{font-size:48px;margin:15px 0;letter-spacing:-2.5px}.enrollInfo>p{color:var(--muted);line-height:1.7;font-size:14px}.selected{background:white;border:1px solid #d8e2e9;border-radius:14px;padding:15px;margin-top:30px}.selected small{display:block;text-transform:uppercase;letter-spacing:1.2px;color:#708194;font-size:8px;font-weight:850}.selected strong{display:block;font-size:15px;margin:6px 0}.selected button{font-size:10px;text-decoration:underline;color:#3b6b8f}.phone{display:inline-block;margin-top:25px;color:var(--navy);font-size:12px;font-weight:800;text-decoration:none}.enroll form{padding:55px;display:grid;grid-template-columns:1fr 1fr;gap:19px}.enroll label{font-size:10px;font-weight:800;color:#43566b;display:flex;flex-direction:column;gap:8px}.enroll input,.enroll select{border:1px solid #d6dfe5;background:#fafbfc;border-radius:10px;padding:13px 12px;outline:none;color:var(--navy);font-size:12px}.enroll input:focus,.enroll select:focus{border-color:#6995b6;box-shadow:0 0 0 3px #e4eff6}.submit{grid-column:1/-1;background:var(--navy);color:white;border-radius:11px;padding:15px;font-weight:800;margin-top:3px}.submit span{float:right}.enroll form>small{grid-column:1/-1;color:#8090a0;font-size:9px;line-height:1.5}footer{background:#071a30;color:#dce7ef;padding:55px max(28px,calc((100vw - 1184px)/2)) 20px}.footerTop{display:flex;justify-content:space-between;gap:40px;padding-bottom:55px}.foot{color:white}.footerTop>p{max-width:300px;color:#8094a7;font-size:11px;line-height:1.6}.footerTop>div:last-child>small{color:#8094a7;text-transform:uppercase;letter-spacing:1.5px;font-size:9px;font-weight:800}.social{display:flex;gap:8px;margin-top:12px}.social a{border:1px solid #294158;border-radius:999px;padding:8px 11px;color:#e1eaf1;text-decoration:none;font-size:9px}.bottom{border-top:1px solid #20364c;padding-top:17px;color:#61758a;font-size:9px;display:flex;justify-content:space-between}.whatsapp{position:fixed;right:18px;bottom:18px;z-index:30;background:#123f5d;color:white;border-radius:999px;padding:12px 15px;text-decoration:none;box-shadow:0 12px 30px #09223f40;font-size:11px}.urdu{font-family:"Noto Nastaliq Urdu","Noto Sans Arabic",Arial,sans-serif}.urdu .hero h1,.urdu .section h2,.urdu .enrollInfo h2{letter-spacing:0;line-height:1.25}.urdu .eyebrow{letter-spacing:0}.urdu .heroCopy>p,.urdu .sectionHead>p{line-height:2}.urdu .brand small{font-family:Inter,sans-serif}.urdu .course{text-align:right}.urdu .courseTop{direction:ltr}.urdu .whatsapp{right:auto;left:18px}
+@media(max-width:900px){.nav{height:72px}.nav nav{display:none}.navCta{display:none}.hero{grid-template-columns:1fr;padding-top:55px}.heroVisual{height:390px}.sectionHead,.how,.enrollPanel{grid-template-columns:1fr}.courseGrid{grid-template-columns:1fr 1fr}.course,.course:nth-child(4),.course:nth-child(5){grid-column:span 1}.how{gap:25px;padding-left:28px;padding-right:28px}.enroll form{padding:30px}.enrollInfo{padding:35px}.footerTop{flex-direction:column}}
+@media(max-width:560px){.nav{padding:0 15px}.brand strong{font-size:15px}.brand>b{width:35px;height:35px}.hero{padding:44px 20px 28px}.hero h1{font-size:49px;letter-spacing:-3px}.heroCopy>p{font-size:15px}.heroBtns{flex-direction:column;align-items:flex-start;gap:15px}.visual{height:330px}.lessonCard{height:250px}.lessonCard h3{font-size:28px;margin-top:32px}.ring.a{width:340px;height:225px}.ring.b{width:295px;height:190px}.rating{top:20px;right:-4px}.demo{bottom:20px;left:-4px}.section{padding:75px 20px}.section h2{font-size:39px}.courseGrid{grid-template-columns:1fr}.course,.course:nth-child(4),.course:nth-child(5){grid-column:span 1}.how{padding:75px 20px}.enroll{padding:65px 20px}.enrollInfo{padding:28px}.enrollInfo h2{font-size:38px}.enroll form{padding:28px;grid-template-columns:1fr}.submit,.enroll form>small{grid-column:1}.footerTop{padding-bottom:38px}.bottom{flex-direction:column;gap:10px}.whatsapp{right:12px;bottom:12px}.urdu .whatsapp{left:12px;right:auto}}
+/* Speak Right course-detail experience */
+.brand img,.detailBrand img{width:54px;height:42px;object-fit:contain;border-radius:8px;background:#fff}.brand>b{display:none}.foot img{width:58px;height:44px}.floatingEnroll{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:35;background:#09223f;color:#fff;border:1px solid #385a74;border-radius:999px;padding:14px 22px;font-size:12px;font-weight:850;box-shadow:0 16px 40px #06182b55}.floatingEnroll span{margin-left:20px}.urdu .floatingEnroll{font-family:inherit}.coursePage{min-height:100vh;background:var(--cream);color:#0a1e35}.courseNav{height:82px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(18px,5vw,76px);border-bottom:1px solid #dfe4e7;background:#f7f5f0e8;backdrop-filter:blur(18px);position:sticky;top:0;z-index:20}.detailBrand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--navy)}.detailBrand strong{display:block;font-size:18px}.detailBrand small{display:block;font-size:7px;letter-spacing:1.7px;font-weight:800;color:#68798a;margin-top:2px}.detailActions{display:flex;align-items:center;gap:14px}.detailActions a{font-size:11px;color:#516b81;font-weight:800;text-decoration:none}.detailActions button{background:var(--navy);color:#fff;border-radius:999px;padding:11px 17px;font-size:12px;font-weight:800}.detailMain{max-width:1184px;margin:auto;padding:34px 28px 120px}.back{display:inline-block;color:#56738c;font-size:11px;font-weight:800;text-decoration:none;margin-bottom:44px}.detailHero{display:grid;grid-template-columns:1fr 300px;gap:70px;align-items:center;padding-bottom:80px}.detailHero h1{font-size:clamp(52px,7vw,92px);line-height:.94;letter-spacing:-5px;margin:18px 0 24px}.detailHero p{max-width:670px;color:var(--muted);font-size:17px;line-height:1.75;margin-bottom:30px}.detailStamp{width:260px;height:260px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-content:center;text-align:center;box-shadow:0 30px 65px #09223f2b;transform:none}.detailStamp strong{font-size:40px;letter-spacing:-2px}.detailStamp span{font-size:10px;line-height:1.3;letter-spacing:2px;color:#a8c6dc;margin:8px 0 20px}.detailStamp em{font-style:normal;border:1px solid #55758f;border-radius:999px;padding:7px 10px;font-size:8px;letter-spacing:1.3px}.detailGrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.detailCard{background:#fff;border:1px solid var(--line);border-radius:22px;padding:34px;min-height:330px}.detailCard.dark{background:#0d2b48;color:#fff;border-color:#183e5e}.detailCard small,.formatBar small{font-size:8px;letter-spacing:1.8px;font-weight:850;color:#648198}.detailCard.dark small{color:#9ebbd0}.detailCard h2{font-size:31px;line-height:1.05;letter-spacing:-1.5px;margin:15px 0 25px}.detailCard ul{list-style:none;padding:0;margin:0;display:grid;gap:13px}.detailCard li{font-size:12px;line-height:1.5;color:#617486}.detailCard.dark li{color:#c4d5e1}.detailSection{padding:110px 0;display:grid;grid-template-columns:.75fr 1.25fr;gap:60px}.detailSection h2{font-size:48px;letter-spacing:-2.5px;line-height:1.02;margin:14px 0}.topicGrid{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line)}.topicGrid>div{padding:20px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:38px 1fr;gap:5px}.topicGrid b{font-size:9px;color:#7d94a7}.topicGrid strong{font-size:14px}.topicGrid span{grid-column:2;color:#788998;font-size:10px;line-height:1.5}.formatBar{background:#e9f0f4;border-radius:22px;padding:38px;display:grid;grid-template-columns:.9fr 1.1fr;gap:50px;align-items:center}.formatBar h2{font-size:35px;letter-spacing:-1.5px;margin:12px 0 0}.formatItems{display:grid;grid-template-columns:1fr 1fr;gap:12px}.formatItems span{background:#fff;border:1px solid #d9e2e8;border-radius:10px;padding:13px;font-size:10px;font-weight:750;color:#536b7e}.detailCta{margin-top:100px;background:var(--navy);border-radius:24px;padding:45px;display:grid;grid-template-columns:1fr .7fr;gap:40px;color:#fff;align-items:center}.detailCta h2{font-size:43px;line-height:1;letter-spacing:-2px;margin:13px 0}.detailCta p{color:#a9bdcd;font-size:13px;line-height:1.6;max-width:500px}.detailCta form{display:grid;gap:10px}.detailCta input{background:#fff;border:0;border-radius:10px;padding:15px;font-size:12px;outline:0}.detailCta .submit{margin:0}.coursePage .whatsapp{bottom:80px}.coursePage .urdu{font-family:"Noto Nastaliq Urdu","Noto Sans Arabic",Arial,sans-serif}.urdu .detailHero h1,.urdu .detailCard h2,.urdu .detailSection h2,.urdu .formatBar h2,.urdu .detailCta h2{letter-spacing:0;line-height:1.25}.urdu .topicGrid{text-align:right}.urdu .detailHero{text-align:right}.urdu .detailCard{text-align:right}.urdu .formatBar{text-align:right}
+@media(max-width:800px){.detailHero,.detailGrid,.detailSection,.formatBar,.detailCta{grid-template-columns:1fr}.detailHero{gap:45px;padding-bottom:55px}.detailStamp{width:190px;height:190px;margin:auto}.detailStamp strong{font-size:30px}.detailStamp span{font-size:8px}.detailSection{padding:75px 0;gap:35px}.detailCta{padding:30px;margin-top:65px}.topicGrid{grid-template-columns:1fr}.courseNav{height:72px;padding:0 15px}.detailBrand img{width:48px;height:38px}.detailBrand strong{font-size:15px}.detailActions button{padding:9px 13px}.detailMain{padding:25px 20px 120px}.detailHero h1{font-size:51px;letter-spacing:-3px}.detailHero p{font-size:15px}.formatItems{grid-template-columns:1fr}}
+@media(max-width:520px){.detailActions a{display:none}.detailCard{padding:26px;min-height:0}.detailCard h2{font-size:27px}.detailSection h2{font-size:38px}.detailCta h2{font-size:35px}.floatingEnroll{bottom:14px;padding:12px 18px}.coursePage .whatsapp{bottom:72px}.brand img{width:48px;height:38px}}
+/* Readability refinement: slightly larger small text with stronger contrast */
+.brand small,.detailBrand small{font-size:8px;color:#000}
+.eyebrow{font-size:11px;color:#000}
+.proof{font-size:11px;color:#000}
+.lessonCard small{font-size:10px}
+.lessonCard .wave em{font-size:10px}
+.float{font-size:11px;color:#000}
+.float small{font-size:10px;color:#000}
+.ticker{font-size:10px;color:#000}
+.course small{font-size:10px;color:#000}
+.enroll label{font-size:11px;color:#000}
+.enroll form>small{font-size:10px;color:#000}
+.selected small,.detailCard small,.formatBar small{font-size:9px;color:#000}
+.detailStamp span{font-size:11px}
+.detailStamp em{font-size:9px}
+.detailBrand small{font-size:8px}
+.detailActions a{font-size:12px;color:#000}
+.detailActions button{font-size:13px}
+.back{font-size:12px;color:#000}
+.topicGrid b{font-size:10px;color:#000}
+.topicGrid span{font-size:11px;color:#000}
+.formatItems span{font-size:11px;color:#000}
+.detailCta p{font-size:14px}
+.footerTop>p{font-size:12px;color:#000}
+.footerTop>div:last-child>small{font-size:10px;color:#000}
+.social a{font-size:10px}
+.bottom{font-size:10px}
+.whatsapp{font-size:12px}
+/* Final readability adjustment */
+.footerTop>p{color:#8094a7}
+.footerTop>div:last-child>small{color:#8094a7}
+.brand small,.detailBrand small{color:#68798a}
+.course h3{color:#09223f;font-size:23px;font-weight:850;margin:28px 0 10px}
+.course p{color:#405a70;font-size:13px;line-height:1.65;font-weight:550}
+.course small{color:#1d5e91;background:#e8f1f7;border:1px solid #c9dce9;border-radius:999px;padding:8px 11px;font-size:10px;font-weight:850;letter-spacing:.6px}
+.course:hover h3,.course.selected h3{color:#174f78}
+.course:hover small,.course.selected small{background:#dcecf6;border-color:#a9c9dc}
+.topicGrid>div{background:#fff;border-radius:12px;padding:16px 14px;margin-bottom:2px;border:1px solid #e1e8ed}
+.topicGrid strong{color:#09223f;font-size:15px;font-weight:850}
+.topicGrid span{color:#4d6578;font-size:11px;font-weight:500}
+.detailCard li{color:#405a70;font-size:13px;font-weight:550}
+
+.reviews{padding-top:30px}.reviewGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.reviewCard{background:#fff;border:1px solid var(--line);border-radius:20px;padding:26px;min-height:220px;box-shadow:0 14px 35px #1439560d}.stars{color:#c38a32;letter-spacing:3px;font-size:13px;margin-bottom:18px}.reviewCard p{font-size:14px;line-height:1.7;color:#405a70;margin:0 0 22px}.reviewCard strong{display:block;color:#09223f;font-size:12px}.reviewCard small{display:block;color:#8493a0;font-size:9px;margin-top:5px}.floatingEnroll{left:auto;right:20px;transform:none}.urdu .floatingEnroll{left:auto;right:20px}
+@media(max-width:800px){.reviewGrid{grid-template-columns:1fr}.floatingEnroll{right:14px}}
+
+/* Final spacing and dark-module contrast fixes */
+.detailCard.dark h2{color:#fff}
+.detailCard.dark li{color:#cfe0ea}
+.detailCard.dark small{color:#a9c8dc}
+.how,.how h2,.how .step h3,.how .step p{color:inherit}
+@media(max-width:560px){.rating{top:46px;right:-4px}}
+.socialIcon{width:34px;height:34px;border:1px solid #294158!important;border-radius:50%!important;padding:0!important;display:grid;place-items:center;color:#e1eaf1!important;font-size:15px!important;font-weight:800;text-decoration:none}.socialIcon:hover{background:#163650;border-color:#557b99}.courseTop b{font-variant-numeric:tabular-nums}
+
+/* Refined hero confidence card and social brand icons */
+.rating{padding:13px 16px;display:flex;flex-direction:column;align-items:flex-start;gap:8px;line-height:1}.rating small{margin-top:0;line-height:1.35}.socialIcon{padding:0!important;overflow:hidden}.socialIcon svg{width:17px;height:17px;display:block;fill:currentColor;stroke:currentColor;stroke-width:1.6}.facebookIcon{background:#1877f2;color:#fff!important;border-color:#1877f2!important}.instagramIcon{background:linear-gradient(135deg,#f58529,#dd2a7b,#8134af);color:#fff!important;border-color:#dd2a7b!important}.instagramIcon svg{fill:none}.instagramIcon .igDot{fill:currentColor;stroke:none}.whatsappIcon{background:#25d366;color:#fff!important;border-color:#25d366!important}.socialIcon:hover{filter:brightness(.94)}
+
+/* Speak Right trust, reviews and readability refinement */
+.studentProof{display:flex;align-items:center;gap:10px;margin-top:20px;width:max-content;padding:10px 14px;border:1px solid #d6e3ec;background:#fff;border-radius:12px;box-shadow:0 10px 28px #1439560d}.studentProof strong{font-size:18px;color:#09223f;letter-spacing:-.5px}.studentProof span{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:#4f718b;font-weight:850}.ratingStars{color:#c38a32;letter-spacing:2px;font-size:13px;line-height:1}.rating small{font-size:10px;color:#405a70;font-weight:750}.rating{background:#fff;border-color:#dce5eb}.reviews{padding-top:70px}.reviewGrid{grid-template-columns:repeat(4,1fr)}.reviewCard{min-height:245px}.reviewCard .stars{font-size:14px}.detailCard.dark h2,.detailCard.dark li,.detailCard.dark small{color:inherit}.detailCard.dark h2{color:#fff}.detailCard.dark li{color:#d7e7f0}.detailCard.dark small{color:#b6d2e3}.detailCard.dark{color:#fff}
+@media(max-width:1000px){.reviewGrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.reviewGrid{grid-template-columns:1fr}.studentProof{margin-top:17px}.reviews{padding-top:55px}.rating{top:46px;right:-4px}}
+
+/* Final polish */
+.studentProof{margin-top:30px;padding:12px 18px;gap:12px;border-radius:14px;box-shadow:0 12px 30px #14395612}.studentProof strong{font-size:20px;color:#1d5e91}.studentProof span{font-size:10px;color:#5c7183}.detailCard.dark h2{color:#fff!important}.detailCard.dark li{color:#d7e7f0!important}.detailCard.dark small{color:#b6d2e3!important}footer .footerTop>p{color:#8094a7!important}footer .footerTop>div:last-child>small{color:#8094a7!important}footer .bottom,footer .bottom span{color:#71869a!important}@media(max-width:560px){.studentProof{margin-top:24px}}
+
+
+/* New learning journey section */
+.journey{background:#eaf3f8;border-top:1px solid #d7e4ec;border-bottom:1px solid #d7e4ec;border-radius:28px;margin:20px auto 0;padding:86px max(28px,calc((100vw - 1184px)/2));color:#09223f}
+.journeyHead{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:end;margin-bottom:38px}
+.journeyHead h2{max-width:620px;margin:14px 0 0;color:#09223f}
+.journeyHead>p{max-width:470px;margin:0;color:#536b7e;font-size:14px;line-height:1.75}
+.journeyGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.journeyCard{position:relative;background:#fff;border:1px solid #d5e1e8;border-radius:20px;padding:28px;min-height:220px;box-shadow:0 16px 40px #1439560d;transition:transform .2s,box-shadow .2s}
+.journeyCard:hover{box-shadow:0 22px 45px #14395618}
+.journeyNumber{width:42px;height:42px;border-radius:12px;background:#dcecf6;color:#1d5e91;display:grid;place-items:center;font-size:11px;font-weight:850}
+.journeyCard h3{font-size:22px;letter-spacing:-.7px;margin:30px 0 10px;color:#09223f}
+.journeyCard p{margin:0;max-width:310px;color:#5b7080;font-size:13px;line-height:1.65}
+.journeyArrow{position:absolute;right:24px;bottom:22px;width:32px;height:32px;border-radius:50%;background:#09223f;color:#fff;display:grid;place-items:center;font-size:14px}
+/* Keep the hero confidence card clearly separated from the main visual */
+.visual .rating{top:58px;right:-18px;padding:16px 18px;min-width:154px;gap:9px;border-radius:16px;box-shadow:0 20px 48px #09223f20}
+.visual .rating .ratingStars{font-size:14px}
+.visual .rating small{font-size:11px;color:#405a70;white-space:nowrap}
+/* Dark course-detail pages: no black text inside the blue card */
+.coursePage .detailCard.dark,.coursePage .detailCard.dark *{color:#fff!important}
+.coursePage .detailCard.dark small{color:#b6d2e3!important}
+.coursePage .detailCard.dark h2{color:#fff!important}
+.coursePage .detailCard.dark li{color:#d7e7f0!important}
+@media(max-width:900px){.journey{border-radius:0;margin-top:0}.journeyHead{grid-template-columns:1fr;gap:20px}.journeyGrid{grid-template-columns:1fr}.visual .rating{right:0;top:48px}}
+@media(max-width:560px){.journey{padding:72px 20px}.journeyHead{margin-bottom:28px}.journeyCard{min-height:205px;padding:24px}.visual .rating{right:-2px;top:42px;min-width:145px;padding:13px 15px}}
+
+/* Final visual correction: keep the announcement banner complete and unclipped */
+.hiddenTicker{display:none}
+.how{padding-top:125px;padding-bottom:125px;align-items:start}
+.howIntro{padding-top:18px}
+.journeyLead{max-width:420px;color:#9fb1c1;font-size:14px;line-height:1.7;margin:20px 0 0}
+.steps{padding-top:4px}
+.step{grid-template-columns:72px 1fr;gap:24px;padding:28px 26px;border:1px solid #274661;border-radius:18px;margin-bottom:14px;background:#0b2945;min-height:130px}
+.step>i{display:none}
+.stepNumber{width:44px;height:44px;border-radius:50%;border:1px solid #527795;display:grid;place-items:center;color:#b4d0e2;font-size:11px;font-weight:850}
+.step h3{color:#fff!important;font-size:20px;margin:2px 0 9px}
+.step p{color:#aec0ce!important}
+.badge{margin-top:34px}
+/* Ensure every dark course detail element remains readable */
+.detailCard.dark,.detailCard.dark *{color:inherit}
+.detailCard.dark h2{color:#fff!important}
+.detailCard.dark li{color:#d7e7f0!important}
+.detailCard.dark small{color:#b6d2e3!important}
+.detailCard.dark li::first-letter{color:#fff}
+.detailCard.dark{box-shadow:0 18px 45px #09223f26}
+/* Remove unintended black small text on course pages */
+.coursePage .detailCard.dark .eyebrow,.coursePage .detailCard.dark p,.coursePage .detailCard.dark span,.coursePage .detailCard.dark strong{color:#fff!important}
+@media(max-width:800px){.how{padding-top:85px;padding-bottom:85px}.howIntro{padding-top:0}.step{padding:24px 20px;grid-template-columns:56px 1fr}.stepNumber{width:40px;height:40px}}
+
+/* Readability: dark blue course modules must never contain black text */
+.coursePage .detailCard.dark,.coursePage .detailCard.dark h2,.coursePage .detailCard.dark p,.coursePage .detailCard.dark li,.coursePage .detailCard.dark small,.coursePage .detailCard.dark span,.coursePage .detailCard.dark strong,.coursePage .detailCard.dark a{color:#fff!important}.coursePage .detailCard.dark li{color:#d7e7f0!important}.coursePage .detailCard.dark small{color:#b6d2e3!important}
+
+/* FINAL: flat, straight presentation — no tilted sections/cards */
+.hero .ring,.hero .ring.a,.hero .ring.b,.hero .lessonCard,.hero .badge,.coursePage .detailStamp{transform:none!important}
+.course:hover,.course.selected,.journeyCard:hover,.socialIcon:hover{transform:none!important}
+/* FINAL: banner always fits the viewport; no clipped/missing words */
+.ticker{min-width:0!important;width:100%!important;max-width:100%!important;overflow:hidden;display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:10px 22px;white-space:normal;padding:18px 24px}
+.ticker span{display:inline-block;white-space:nowrap}
+/* FINAL: dark blue course modules use light text, never black */
+.coursePage .detailCard.dark,.coursePage .detailCard.dark *{color:#fff!important}
+.coursePage .detailCard.dark li{color:#d7e7f0!important}
+.coursePage .detailCard.dark small{color:#b6d2e3!important}
+
+/* Final enrollment and module readability fixes */
+.enrollInfo,.enrollInfo h2,.enrollInfo p,.enrollInfo .eyebrow,.enrollInfo .selected,.enrollInfo .selected strong,.enrollInfo .selected small,.enrollInfo .phone{color:#fff!important}
+.enrollInfo{background:#0d2b48}
+.enrollInfo .selected{background:#123b5d;border-color:#315a76}
+.enrollInfo .selected small{color:#b6d2e3!important}
+.enrollInfo .selected button,.enrollInfo .phone{color:#fff!important}
+.journeyArrow{display:none!important}
+.journeyCard,.journeyCard:hover{transform:none!important}
+.lessonCard,.detailStamp,.badge,.ring{transform:none!important}
+
+/* Professional English academy palette refresh */
+body,.site{background:#f7fbff;color:#09223f}
+.nav{background:#ffffff;border-bottom-color:#d9e8f1}
+.section,.reviews.section{background:#f7fbff}
+.course{background:#ffffff;border-color:#cfe0eb;box-shadow:0 12px 32px #0b35500d}
+.course:hover{border-color:#4b9bd1;box-shadow:0 18px 42px #0b355018}
+.course p,.sectionHead>p,.journeyHead>p{color:#4f687b!important}
+.course small{color:#176da7!important}
+.reviewCard{background:#ffffff;border-color:#cfe0eb;box-shadow:0 12px 32px #0b35500d}
+.reviewCard p{color:#415d72!important}
+.reviewCard small{color:#71899a!important}
+.stars{color:#f4a62a!important}
+.journey{background:#09223f!important}
+.journeyHead h2,.journeyHead .eyebrow,.journeyHead>p{color:#fff!important}
+.journeyHead>p{color:#c2d7e6!important}
+.journeyCard{background:#103554;border-color:#285675;box-shadow:0 16px 38px #03132155}
+.journeyCard h3{color:#fff!important}.journeyCard p{color:#c1d5e3!important}
+.enroll{background:#eaf5fb!important}
+.enrollPanel{box-shadow:0 20px 55px #0b355018}
+.enrollInfo{background:#09223f!important}
+.enrollInfo p{color:#c7dbe8!important}
+.enrollInfo .selected{background:#123e60!important;border-color:#2c6388!important}
+.enrollInfo .selected small{color:#9fc3da!important}
+.enrollInfo .selected strong{color:#fff!important}
+.enrollInfo .selected button{color:#fff!important;border-color:#5d88a5!important}
+.enrollInfo .phone{color:#bfe0f2!important}
+.enroll form{background:#fff}
+.enroll form label{color:#294b63!important}
+.enroll form input,.enroll form select{border-color:#c9dce8!important;color:#09223f!important;background:#fff!important}
+.submit,.primary{background:#176da7!important;color:#fff!important}
+.textBtn{color:#176da7!important}
+.footerTop{background:#071b30!important}
+footer{background:#071b30!important}
+footer .footerTop p,footer .footerTop small,footer .bottom,footer .bottom span{color:#a9c0d1!important}
+.floatingEnroll{background:#176da7!important;border-color:#5ba9d9!important}
